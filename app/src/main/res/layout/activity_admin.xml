@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_gotoDashboard"
+            android:layout_width="130dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="5dp"
+            android:backgroundTint="@color/teal_200"
+            android:text="Go To Dashboard" />
+
+
+
+        <ImageView
+            android:id="@+id/img_Admin"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/blog"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/txt_WelcomeAdmin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/acme"
+            android:text="Welcome Admin"
+            android:textSize="34sp" />
+
+                <EditText
+                android:id="@+id/subjectAdmin"
+                android:layout_width="150dp"
+                android:layout_height="46dp"
+                android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:hint="Subject"
+
+                    />
+
+
+        <EditText
+            android:id="@+id/infoAdmin"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:layout_marginLeft="55dp"
+            android:hint="News ... Under 300 Charecters"
+
+            />
+
+
+
+
+
+
+        <EditText
+            android:id="@+id/bloodTypeReqAd"
+            android:layout_width="195dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp"
+            android:hint="Blood Trype Required"/>
+
+
+            />
+        <ImageView
+            android:id="@+id/postImage"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+
+            android:layout_gravity="center"
+            android:layout_marginLeft="100dp"
+            android:src="@drawable/addpicture" />
+
+
+
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_Publish"
+            android:layout_width="130dp"
+            android:layout_height="68dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@android:color/holo_red_dark"
+            android:text="Publish" />
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

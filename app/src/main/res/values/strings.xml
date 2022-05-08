@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Fetching</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
